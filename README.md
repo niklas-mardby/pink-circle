@@ -1,7 +1,7 @@
 # pink-circle
 A demo of Parcel with Sass och Typescript
 
-## How to setup
+## How to clone, install and run
 1) First clone repo to local machine
 
 ```
@@ -27,3 +27,7 @@ npm run start
 ```
 
 5) Now open http://localhost:1234/ in your browser. The dev server is running and you can code Sass and TS, save and then watch the result in your browser without having to compile or refresh.
+
+## How to set this up with your own project
+
+...
