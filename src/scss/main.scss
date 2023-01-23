@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: mix(pink, white);
+}
+
+section {
+    background-color: pink;
+    border: 3px solid rgb(95, 0, 95);
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: rgb(95, 0, 95);
+    cursor: default;
+    margin-top: -80px;
+    text-align: center;
+}
