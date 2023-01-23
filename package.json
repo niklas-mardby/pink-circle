@@ -2,11 +2,9 @@
   "name": "pink-circle",
   "version": "1.0.0",
   "description": "A demo of Parcel with Sass och Typescript",
-  "source": [
-    "src/index.html"
-  ],
+  "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel"
   },
   "repository": {
     "type": "git",
