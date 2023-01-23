@@ -1,3 +1,21 @@
+@use 'sass-utils' as *;
+
+@function circle-drop-shadow($layers) {
+    $arr: ();
+    $c: $pink;
+    $dist: 5;
+
+    @for $i from 1 through $layers {
+        $percentage: $i * 10%;
+
+        $arr: append($arr, mix(white, $c, $percentage) 0px 0px 0px ($dist * $i * 1px), 'comma');
+
+    }
+
+    @return $arr;
+
+}
+
 body {
     font-family: 'Arial Narrow Bold', sans-serif;
     padding: 0;
@@ -11,21 +29,22 @@ main {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: mix(pink, white);
+    background-color: $light-pink;
 }
 
 section {
-    background-color: pink;
-    border: 3px solid rgb(95, 0, 95);
+    background-color: $pink;
+    border: $circle-border-width * 1px solid $dark-purple;
     border-radius: 100%;
-    width: 400px;
-    height: 400px;
+    width: $circle-diameter * 1px;
+    height: $circle-diameter * 1px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2em;
-    color: rgb(95, 0, 95);
+    color: $dark-purple;
     cursor: default;
     margin-top: -80px;
     text-align: center;
+    box-shadow: circle-drop-shadow(5);
 }
