@@ -1,11 +1,23 @@
 # pink-circle
 A demo of Parcel with Sass och Typescript
 
-## Clone and install
-First clone repo to local machine. Then in repo folder type 
+## How to setup
+1) First clone repo to local machine
+
+```
+git clone https://github.com/niklas-mardby/pink-circle.git
+```
+
+2) Enter repo directory
+
+```
+cd pink-circle
+```
+
+3) Install dev dependencies
 
 ```
 npm install
 ```
 
-Then ...
+4) ...
