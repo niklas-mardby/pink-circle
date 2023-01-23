@@ -1,21 +1,5 @@
 @use 'sass-utils' as *;
 
-@function circle-drop-shadow($layers) {
-    $arr: ();
-    $c: $pink;
-    $dist: 5;
-
-    @for $i from 1 through $layers {
-        $percentage: $i * 10%;
-
-        $arr: append($arr, mix(white, $c, $percentage) 0px 0px 0px ($dist * $i * 1px), 'comma');
-
-    }
-
-    @return $arr;
-
-}
-
 body {
     font-family: 'Arial Narrow Bold', sans-serif;
     padding: 0;
@@ -46,5 +30,5 @@ section {
     cursor: default;
     margin-top: -80px;
     text-align: center;
-    box-shadow: circle-drop-shadow(5);
+    box-shadow: circle-drop-shadow(5, $pink);
 }
