@@ -1,0 +1,25 @@
+{
+  "name": "pink-circle",
+  "version": "1.0.0",
+  "description": "A demo of Parcel with Sass och Typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niklas-mardby/pink-circle.git"
+  },
+  "keywords": [],
+  "author": "Niklas Mårdby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niklas-mardby/pink-circle/issues"
+  },
+  "homepage": "https://github.com/niklas-mardby/pink-circle#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}
