@@ -30,4 +30,50 @@ npm run start
 
 ## How to set this up with your own project
 
-...
+If you want to start your own project working with Parcel, Sass and Typescript you set it up like this:
+
+First install Sass and Typescript globally, then
+
+1) Create repo on Github with a readme
+2) Clone repo to local computer and enter folder of repo
+3) Run
+```
+npm init
+```
+
+4) Run
+```
+npm install --save-dev parcel
+```
+
+and make sure your package.json has these lines:
+```
+"source": "src/index.html",
+"scripts": {
+    "start": "parcel"
+  },
+```
+
+5) Create a .gitignore file and add
+```
+node_modules
+dist
+.parcel-cache
+```
+
+6) Now create the files and folders for your project! Create a folder src and in there create an index.html
+
+7) You can link your html directly to your Sass and TS like so
+```html
+<script defer src="ts/app.ts"></script>
+<link rel="stylesheet" href="scss/main.scss">
+```
+
+8) Which also means you need a folder scss with a main.scss and a folder ts with an app.ts
+
+9) Now you are set up and you can start the dev server and start working with watch and auto-refresh
+```
+npm run start
+```
+
+10) Now open http://localhost:1234/ in your browser
