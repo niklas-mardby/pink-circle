@@ -54,6 +54,8 @@ and make sure your package.json has these lines:
   },
 ```
 
+My package.json currently looks like this: https://github.com/niklas-mardby/pink-circle/blob/main/package.json
+
 5) Create a .gitignore file and add
 ```
 node_modules
