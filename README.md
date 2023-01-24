@@ -1,5 +1,5 @@
 # pink-circle
-A demo of Parcel with Sass och Typescript
+A demo of Parcel with Sass och Typescript. Made for students at vocational university studying front-end on their second semester of four.
 
 ## How to clone, install and run
 1) First clone repo to local machine
@@ -47,14 +47,14 @@ npm install --save-dev parcel
 ```
 
 and make sure your package.json has these lines:
-```
+```json
 "source": "src/index.html",
 "scripts": {
     "start": "parcel"
   },
 ```
 
-⭐ My package.json currently looks like this: https://github.com/niklas-mardby/pink-circle/blob/main/package.json
+⭐ My package.json currently looks like this: https://github.com/niklas-mardby/pink-circle/blob/main/package.json and yours can look the same.
 
 5) Create a .gitignore file and add
 ```
