@@ -54,7 +54,7 @@ and make sure your package.json has these lines:
   },
 ```
 
-My package.json currently looks like this: https://github.com/niklas-mardby/pink-circle/blob/main/package.json
+⭐ My package.json currently looks like this: https://github.com/niklas-mardby/pink-circle/blob/main/package.json
 
 5) Create a .gitignore file and add
 ```
@@ -71,7 +71,7 @@ dist
 <link rel="stylesheet" href="scss/main.scss">
 ```
 
-8) Which also means you need a folder scss with a main.scss and a folder ts with an app.ts
+8) Which also means you need a folder scss with a main.scss and a folder ts with an app.ts (all of which are added to folder src)
 
 9) Now you are set up and you can start the dev server and start working with watch and auto-refresh
 ```
@@ -79,3 +79,15 @@ npm run start
 ```
 
 10) Now open http://localhost:1234/ in your browser
+
+# Resources
+
+- https://parceljs.org/
+- https://sass-lang.com/
+
+# Issues
+There are more things that could be added. Come with suggestions!
+
+Known issues are:
+- Readme lacks instructions on how to build project
+
