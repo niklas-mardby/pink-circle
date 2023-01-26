@@ -84,6 +84,7 @@ npm run start
 
 - https://parceljs.org/
 - https://sass-lang.com/
+- https://www.typescriptlang.org/
 
 # Issues
 There are more things that could be added. Come with suggestions!
